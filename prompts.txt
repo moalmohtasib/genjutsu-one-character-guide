@@ -1,0 +1,9 @@
+Replace only the single main character in the center of the uploaded video with the character from <<<image_1>>>.
+
+Keep the character's face, hair, body proportions, and identity consistent in every frame. If <<<image_2>>> is uploaded, use it only as the clothing reference for the same character.
+
+Keep every other person, the background, camera movement, framing, lighting, timing, choreography, and original audio unchanged. Do not add, remove, or replace anyone else.
+
+Preserve the main character's original position, movement, expressions, hand actions, and interaction with any original props.
+
+Avoid face drift, identity changes, clothing flicker, warped hands, extra people, missing people, or changes to the scene.

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moalmohtasib.github.io/genjutsu-one-character-guide/sitemap.xml

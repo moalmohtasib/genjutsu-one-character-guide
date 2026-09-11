@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>دليل جينجتسو — غيّر شخصية واحدة</title>
+  <meta name="description" content="دليل عربي بسيط لتغيير شخصية واحدة في الفيديو باستخدام جينجتسو مع برومبت جاهز وطريقة عمل لوحة مرجعية للشخصية.">
+  <meta property="og:title" content="دليل جينجتسو — غيّر شخصية واحدة">
+  <meta property="og:description" content="الفيديو، الخطوات، برومبت التبديل، وبرومبت لوحة الشخصية في مكان واحد.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://moalmohtasib.github.io/genjutsu-one-character-guide/">
+  <link rel="canonical" href="https://moalmohtasib.github.io/genjutsu-one-character-guide/">
+  <meta name="theme-color" content="#080808">
+  <style>
+    :root{--ink:#080808;--paper:#f2f0e8;--yellow:#f2c300;--muted:#aaa79f;--card:#151515;--line:#2b2b2b}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--paper);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+    a{color:inherit}.wrap{width:min(920px,calc(100% - 32px));margin:auto}.top{padding:18px 0;border-bottom:1px solid var(--line)}
+    .brand{display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:700}.tag{color:var(--yellow);font-size:.88rem}
+    .hero{padding:72px 0 44px}.eyebrow{color:var(--yellow);font-weight:800;margin:0 0 12px}.hero h1{font-size:clamp(2.25rem,7vw,5rem);line-height:1.12;margin:0;max-width:820px;letter-spacing:-.035em}
+    .hero p{font-size:clamp(1.05rem,2.2vw,1.35rem);color:#d7d4cc;max-width:720px;margin:22px 0 28px}.actions{display:flex;flex-wrap:wrap;gap:12px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:10px 19px;border-radius:999px;text-decoration:none;font-weight:800;border:1px solid var(--line);background:#171717;cursor:pointer;color:var(--paper)}
+    .btn.primary{background:var(--yellow);border-color:var(--yellow);color:#111}.btn:hover{transform:translateY(-1px)}
+    section{padding:34px 0}.section-title{font-size:clamp(1.65rem,4vw,2.5rem);line-height:1.25;margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px}.step{display:flex;gap:16px}.num{flex:0 0 42px;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:#111;font-weight:900}
+    .step h3{margin:0 0 5px;font-size:1.1rem}.step p{margin:0;color:#c7c4bc}.note{border-right:4px solid var(--yellow);background:#171710;padding:18px 20px;border-radius:16px;margin-top:16px}
+    .prompt{position:relative;background:#0f0f0f;border:1px solid var(--line);border-radius:20px;overflow:hidden}.prompt-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 16px;border-bottom:1px solid var(--line)}
+    pre{margin:0;padding:22px;white-space:pre-wrap;word-wrap:break-word;text-align:left;direction:ltr;font:500 .92rem/1.7 ui-monospace,SFMono-Regular,Menlo,monospace;color:#efeee9}
+    .copy{background:var(--yellow);color:#111;border:0;border-radius:999px;padding:8px 14px;font-weight:900;cursor:pointer}.copy.done{background:#89e38c}
+    .single{max-width:720px}.check{list-style:none;padding:0;margin:0;display:grid;gap:10px}.check li{background:#141414;border:1px solid var(--line);border-radius:14px;padding:12px 15px}.check li:before{content:"✓";color:var(--yellow);font-weight:900;margin-left:9px}
+    footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);font-size:.9rem}.small{color:var(--muted);font-size:.88rem}
+    @media(max-width:680px){.grid{grid-template-columns:1fr}.hero{padding-top:48px}.brand{align-items:flex-start;flex-direction:column}.btn{width:100%}.actions{display:grid}.card{padding:18px}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap brand"><span>محمد المحتسب</span><span class="tag">الذكاء الاصطناعي بالعربي</span></div></header>
+  <main>
+    <section class="hero"><div class="wrap">
+      <p class="eyebrow">دليل مجاني وبسيط</p>
+      <h1>غيّر شخصية واحدة داخل الفيديو</h1>
+      <p>طريقة مباشرة باستخدام جينجتسو: فيديو واحد، صورة شخصيتك، برومبت واضح، ثم توليد.</p>
+      <div class="actions">
+        <a class="btn primary" href="#steps">ابدأ الخطوات</a>
+        <a class="btn" href="https://higgsfield.ai/ai/video?model=genjutsu" target="_blank" rel="noopener">افتح الأداة</a>
+        <a class="btn" href="https://www.instagram.com/moalmohtasib_/" target="_blank" rel="noopener">تابعني على إنستغرام</a>
+      </div>
+    </div></section>
+
+    <section id="steps"><div class="wrap">
+      <h2 class="section-title">الخطوات كاملة</h2>
+      <div class="grid">
+        <article class="card step"><span class="num">١</span><div><h3>سجّل حساباً</h3><p>افتح رابط الأداة من البايو وسجّل للحصول على المحاولة المجانية المتاحة.</p></div></article>
+        <article class="card step"><span class="num">٢</span><div><h3>اختر جينجتسو</h3><p>من قسم الفيديو افتح جينجتسو، ثم اختر تبديل العناصر.</p></div></article>
+        <article class="card step"><span class="num">٣</span><div><h3>أضف الفيديو</h3><p>ارفع الفيديو الذي تريد الاحتفاظ بحركته وكامرته.</p></div></article>
+        <article class="card step"><span class="num">٤</span><div><h3>أضف شخصيتك</h3><p>ارفع صورة واضحة، ويفضّل استخدام لوحة مرجعية بعدة زوايا.</p></div></article>
+        <article class="card step"><span class="num">٥</span><div><h3>الملابس اختيارية</h3><p>إذا أردت ملابس محددة، أضف صورة ملابس كمرجع ثانٍ للشخصية نفسها.</p></div></article>
+        <article class="card step"><span class="num">٦</span><div><h3>الصق البرومبت</h3><p>فعّل خانة البرومبت والصق النص الجاهز الموجود بالأسفل.</p></div></article>
+        <article class="card step"><span class="num">٧</span><div><h3>اضغط توليد</h3><p>راجع الإعدادات واضغط زر التوليد مرة واحدة.</p></div></article>
+        <article class="card step"><span class="num">٨</span><div><h3>انتظر النتيجة</h3><p>المحاولة المجانية قد تستغرق من ساعة إلى ساعتين حسب الضغط.</p></div></article>
+      </div>
+      <div class="note"><strong>خلي الطلب بسيطاً:</strong> غيّر شخصية واحدة فقط، وحدد بوضوح ما يتغير وما يبقى ثابتاً.</div>
+    </div></section>
+
+    <section><div class="wrap">
+      <h2 class="section-title">الفيديو المستخدم</h2>
+      <div class="card single">
+        <p>المقطع المستخدم في التجربة يبدأ من الدقيقة ٤:٢٠. افتح المصدر الأصلي وشاهد الجزء المحدد.</p>
+        <a class="btn primary" href="https://www.youtube.com/watch?v=x6_mbnsh6VU&t=260s" target="_blank" rel="noopener">افتح الفيديو الأصلي</a>
+        <p class="small">استخدم فيديو تملكه أو لديك حق استخدامه عند نشر نتيجتك.</p>
+      </div>
+    </div></section>
+
+    <section><div class="wrap">
+      <h2 class="section-title">برومبت تبديل الشخصية</h2>
+      <div class="prompt">
+        <div class="prompt-head"><strong>انسخه كما هو</strong><button class="copy" data-copy="swap">نسخ</button></div>
+        <pre id="swap">Replace only the single main character in the center of the uploaded video with the character from &lt;&lt;&lt;image_1&gt;&gt;&gt;.
+
+Keep the character's face, hair, body proportions, and identity consistent in every frame. If &lt;&lt;&lt;image_2&gt;&gt;&gt; is uploaded, use it only as the clothing reference for the same character.
+
+Keep every other person, the background, camera movement, framing, lighting, timing, choreography, and original audio unchanged. Do not add, remove, or replace anyone else.
+
+Preserve the main character's original position, movement, expressions, hand actions, and interaction with any original props.
+
+Avoid face drift, identity changes, clothing flicker, warped hands, extra people, missing people, or changes to the scene.</pre>
+      </div>
+      <div class="actions" style="margin-top:12px"><a class="btn" href="prompts.txt" download>تحميل البرومبت</a></div>
+    </div></section>
+
+    <section><div class="wrap">
+      <h2 class="section-title">برومبت لوحة الشخصية في شات جي بي تي</h2>
+      <div class="prompt">
+        <div class="prompt-head"><strong>ارفع صورتك ثم انسخ النص</strong><button class="copy" data-copy="sheet">نسخ</button></div>
+        <pre id="sheet">Create a clean, realistic character reference sheet of the person in my uploaded image.
+
+Keep the person's exact identity, facial structure, age, skin tone, hair, and body proportions. Show the same person from the front, three-quarter view, side profile, and full body. Use neutral studio lighting, a plain background, a relaxed standing pose, and consistent clothing in every view. Do not add text, logos, accessories, or additional people.</pre>
+      </div>
+      <div class="actions" style="margin-top:12px"><a class="btn" href="character-sheet-prompt.txt" download>تحميل برومبت اللوحة</a></div>
+    </div></section>
+
+    <section><div class="wrap">
+      <h2 class="section-title">راجع النتيجة</h2>
+      <ul class="check single">
+        <li>الشخصية المطلوبة فقط هي التي تغيّرت.</li>
+        <li>الوجه والملابس ثابتان بين اللقطات.</li>
+        <li>باقي الأشخاص والمكان لم يتغيروا.</li>
+        <li>الحركة والكاميرا والصوت بقوا كما في الفيديو.</li>
+        <li>اليدين والوجه طبيعيان بدون تشوه.</li>
+      </ul>
+    </div></section>
+  </main>
+  <footer><div class="wrap">هذا الدليل يشرح تعديلاً بصرياً بالذكاء الاصطناعي. فعّل وسم المحتوى المعدّل عند النشر. رابط الأداة قد يكون رابط إحالة.</div></footer>
+  <script>
+    document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{
+      const target=document.getElementById(button.dataset.copy);
+      await navigator.clipboard.writeText(target.textContent.trim());
+      button.textContent='تم النسخ';button.classList.add('done');
+      setTimeout(()=>{button.textContent='نسخ';button.classList.remove('done')},1600);
+    }));
+  </script>
+</body>
+</html>
